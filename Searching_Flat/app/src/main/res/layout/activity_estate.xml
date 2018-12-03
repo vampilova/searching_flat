@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_images"
+        android:layout_width="374dp"
+        android:layout_height="198dp" />
+
+    <TextView
+        android:id="@+id/district_one_estate"
+        android:layout_width="171dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="203dp"
+        android:layout_marginRight="205dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <TextView
+        android:id="@+id/square_one_estate"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="204dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/roomnumber_one_estate"
+        android:layout_width="169dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="203dp"
+        android:layout_marginRight="17dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:id="@+id/repairtype_one_estate"
+        android:layout_width="165dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="21dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/description_one_estate"
+        android:layout_width="341dp"
+        android:layout_height="142dp"
+        android:layout_alignStart="@+id/request_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="63dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+
+
+    <TextView
+        android:id="@+id/cost_one_estate"
+        android:layout_width="181dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/request_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="7dp"
+        android:text="Подать заявку"
+        android:onClick="onRequestClick"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="447dp" />
+</RelativeLayout>
+
